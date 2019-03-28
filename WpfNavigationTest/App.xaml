@@ -2,8 +2,13 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfNavigationTest"
-             StartupUri="MainWindow.xaml">
+             xmlns:viewModels="clr-namespace:WpfNavigationTest.ViewModels">
     <Application.Resources>
-         
+        <DataTemplate DataType="{x:Type viewModels:UserControl1ViewModel}">
+            <local:UserControl1 />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:UserControl2ViewModel}">
+            <local:UserControl2 />
+        </DataTemplate>
     </Application.Resources>
 </Application>
