@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using WpfNavigationTest.ViewModels;
+using WpfNavigationTest.Views;
 
 namespace WpfNavigationTest
 {
