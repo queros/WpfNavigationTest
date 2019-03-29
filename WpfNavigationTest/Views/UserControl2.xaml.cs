@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfNavigationTest
+namespace WpfNavigationTest.Views
 {
     /// <summary>
     /// Interaction logic for UserControl2.xaml
